@@ -446,7 +446,7 @@
                 description: formData.get('description')
             };
 
-            if (!product.name || !product.barcode || isNaN(product.quantity) {
+            if (!product.name || !product.barcode || isNaN(product.quantity)) {
                 showToast('Por favor, complete todos los campos obligatorios.', 'error');
                 return;
             }
